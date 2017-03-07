@@ -1,0 +1,18 @@
+{
+ "AWSEBDockerrunVersion": "1",
+ "Authentication": {
+   "Bucket": "polinchakb-docker",
+   "Key": "index.docker.io/config.json"
+ },
+ "Image": {
+    "Name": "365037934329.dkr.ecr.us-east-1.amazonaws.com/polinchw/dockertest:latest",
+    "Update": "true"
+  },
+ "Ports": [
+   {
+     "ContainerPort": "8080"
+   }
+ ],
+ "Logging": "/var/log"
+}
+
