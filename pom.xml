@@ -9,6 +9,8 @@
 
     <name>Spring Boot Docker Blank Project (from https://github.com/making/spring-boot-docker-blank)</name>
 
+    <description>IPB app for emailing orders to ATT.</description>
+
     <scm>
         <url>https://github.com/polinchw/docker-aws-test</url>
         <connection>scm:git:https://github.com/polinchw/docker-aws-test.git</connection>
