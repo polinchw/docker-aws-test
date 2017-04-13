@@ -69,3 +69,6 @@ hs_err_pid*
 /.idea/
 .idea
 .idea/*.xml
+/.idea/workspace.xml
+/.idea/docker-aws-test.iml
+/.idea/modules.xml
