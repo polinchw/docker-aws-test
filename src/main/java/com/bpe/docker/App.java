@@ -14,7 +14,14 @@ public class App {
     }
 
     @RequestMapping(value = "/")
-    String hello() {
+    public String hello() {
         return "Hello Docker from AWS!!!";
     }
+
+    @RequestMapping(value = "/fetchRandomNumber")
+    public int random() {
+        int random = (int )(Math.random() * 50 + 1);
+        return random;
+    }
+
 }
